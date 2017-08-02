@@ -347,7 +347,7 @@ switch ( $foo ) {
 > 警告:当前，“@”错误控制操作符前缀甚至会禁用错误报告，这些错误报告将会终止脚本的执行。此外，这意味着如果您使用“@”来抑制某个函数的错误，或者它是不可用的，或者已经出现了错误，那么这个脚本就会在这里死去，没有任何提示说明原因。
 
 #### 不要```extract()```
-按[#22400](https://core.trac.wordpress.org/ticket/22400)
+按照[#22400](https://core.trac.wordpress.org/ticket/22400)
 ```
 extract()是一个糟糕的函数，它使代码更难调试，更难理解。我们应该阻止它的使用，并去除它的所有用途。
 约瑟夫斯科特很好地解释了为什么它是坏的[ a good write-up of why it’s bad](https://blog.josephscott.org/2009/02/05/i-dont-like-phps-extract-function/)。
@@ -359,4 +359,4 @@ extract()是一个糟糕的函数，它使代码更难调试，更难理解。�
 #### 主要改动
 - 2013年11月13日，大括号应该总是被使用，即使没必要用它们的时候。[Braces should always be used, even when they are optional](https://make.wordpress.org/core/2013/11/13/proposed-coding-standards-change-always-require-braces/)
 - 2014年10月20日，更新了大括号的用法预示着控制结构的交替语法是被允许的，甚至是鼓励的。单行行内控制结构是被禁止的。
-- 2014年1月21日，添加内柔来禁止 extract().
+- 2014年1月21日，添加内容来禁止 extract().

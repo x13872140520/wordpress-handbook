@@ -16,6 +16,7 @@ w3c规定了自闭和标签斜杠前应该有空格，参见[source](http://www.
 
 #### 属性和标签
 所有的标签和属性必须用小写,此外，当文本的目的是为了让机器解释的收属性值应该小写。相反如果数据需要给人阅读，需要像下面这样用大写。
+
 机器看的:
 ```
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -28,6 +29,7 @@ w3c规定了自闭和标签斜杠前应该有空格，参见[source](http://www.
 
 #### 引号
 根据XHTML的W3C规范，所有属性必须有值，而且必须使用单引号或者双引号。下面的是属性/值对的引号的恰当的和不恰当的用法。
+
 正确的:
 ```
 <input type="text" name="email" disabled="disabled" />
@@ -43,6 +45,7 @@ w3c规定了自闭和标签斜杠前应该有空格，参见[source](http://www.
 与PHP一样，HTML的缩进应该一直反应逻辑结构。使用tab而不是空格。
 
 当PHP与HTML混合在一起的时候，缩进PHP代码以匹配周围的HTML。闭合PHP应该与开头的PHP有相同的缩进。
+
 正确:
 ```
 <?php if ( ! have_posts() ) : ?>
